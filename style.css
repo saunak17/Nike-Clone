@@ -163,6 +163,13 @@ button{
     color: black;
     margin-right: 10px;
 }
+.socialicons i{
+    transform: scale(1);
+    transition: transform .3s ease-in-out;
+}
+.socialicons i:hover{
+    transform: scale(1.2);
+}
 .footer ul{
     list-style-type: none;
 }
@@ -231,6 +238,7 @@ button{
     padding-bottom:30px;
     background-color: white;
 }
+
 .small-container p{
     color:#7e7e7e;
 }
